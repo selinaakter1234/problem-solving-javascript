@@ -1,0 +1,2 @@
+//   node muliple-condition.js
+
