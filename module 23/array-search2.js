@@ -10,8 +10,9 @@ const products = [
 
 
 function searchProducts(products , searchText){
+    const result = [];
     for(const product of products){
-        const result = [];
+        
         if(product.name.includes(searchText)){
             result.push(product);
             
